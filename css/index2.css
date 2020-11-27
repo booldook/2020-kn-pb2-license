@@ -1,0 +1,99 @@
+/*주조색: #3cb149*/
+/*보조1: #1d8844*/
+/*보조2: #434748*/
+/*텍스트: #333333*/
+
+* {margin: 0; padding: 0; box-sizing: border-box; list-style: none;}
+img {vertical-align: middle;}
+.clearfix::after {display: block; content: ''; clear: both;}
+
+html, body {font-size: 16px; color: #333;}
+a:link, a:visited, a:active, a:hover {color: #434748;}
+
+
+
+
+.wrapper {
+	width: 1000px;
+	height: 700px;
+	margin: auto;
+}
+
+.header {
+	height: 100px;
+}
+
+
+
+.content {
+	height: 200px;
+}
+
+.footer {
+	height: 100px
+}
+
+.logo {
+	float: left;
+}
+
+.navi-wrap {
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+
+.navi {
+	float: left;
+	width: 150px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.sub-wrap {
+	position: absolute;
+	width: 100%;
+	display: none;
+	top: 100px;
+}
+
+.sub {
+	float: left;
+	width: 25%;
+	background-color: #1d8844;
+}
+.sub li {
+	padding: 12px 24px;
+	line-height: 1;
+	color: #fff;
+}
+
+.sub a:link {color: #fff;}
+
+
+.banner-wrap {
+	position: relative;
+	height: 300px;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
